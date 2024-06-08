@@ -1,0 +1,35 @@
+/* src/components/NotFound.css */
+
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff0f0;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-found-title {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #ff3333;
+  }
+  
+  .not-found-description {
+    font-size: 1.5em;
+    color: #cc0000;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-link {
+    font-size: 1.2em;
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .not-found-link:hover {
+    text-decoration: underline;
+  }
+  

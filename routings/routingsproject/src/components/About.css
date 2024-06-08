@@ -1,0 +1,55 @@
+/* src/components/About.css */
+
+.about-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-description {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.about-extra-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-section-content {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.about-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #666;
+}
+
+.about-list li {
+  margin-bottom: 5px;
+}

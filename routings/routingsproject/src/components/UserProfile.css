@@ -1,0 +1,39 @@
+/* src/components/UserProfile.css */
+
+.user-profile-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 1px solid #cce7ff;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0073e6;
+  }
+  
+  .user-profile-details {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .user-profile-details p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .user-profile-details a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .user-profile-details a:hover {
+    text-decoration: underline;
+  }
+  

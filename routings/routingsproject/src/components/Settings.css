@@ -1,0 +1,66 @@
+/* src/components/Settings.css */
+
+.settings-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border: 1px solid #cce7ff;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #0073e6;
+}
+
+.settings-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.settings-section-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.settings-section label {
+  display: block;
+  font-size: 1.1em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.settings-section input[type="text"],
+.settings-section input[type="email"],
+.settings-section select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.settings-section input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.settings-save-button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.settings-save-button:hover {
+  background-color: #005bb5;
+}
